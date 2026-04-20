@@ -1,0 +1,37 @@
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-grow: 1;
+  gap: 1ch;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  padding: 1ch;
+}
+
+article .blockquote {
+  background-color: wheat;
+  padding: 1ch;
+  font-style: italic;
+}
+
+footer {
+  background-color: black;
+  padding: 1ch;
+  color: white;
+  text-align: center;
+}
