@@ -1,0 +1,15 @@
+aside {
+  padding: 1ch;
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+aside li {
+  background-color: rgb(128, 0, 81);
+  width: 100%;
+  border-radius: 5px;
+  padding: 1ch;
+  color: white;
+}

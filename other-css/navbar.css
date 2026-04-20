@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(128, 0, 81);
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  gap: 1ch;
+}
+nav a {
+  color: black;
+}
+.brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
